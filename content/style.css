@@ -97,4 +97,21 @@ p{
             }
 
         }
+        /*Icon*/
+        .icon{
+            height: 44px;
+            width: 44px;
+        }
+        .icon--primary{
+            fill:var(--primary-color)
+        }
+        .icon-container{
+            background-color: #f3f9fa;
+            border-radius: 100%;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            width: 64px;
+            height: 64px;
+        }
  
