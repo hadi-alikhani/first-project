@@ -5,6 +5,7 @@
     --heading-color:#1b0760;
     --body-color:#918ca4;
     --border-radius:30px;
+    --border-color:#ccc;
 }
 *,*::after,*::before{
     box-sizing: border-box;
@@ -197,7 +198,7 @@ p{
          /*input*/
          .input{
             padding: 1.5rem 3.5rem;
-            border:1px solid #ccc;
+            border:1px solid var(--border-color);
             border-radius: 40px;
             outline: 0;
             color: var(--heading-color);
@@ -207,7 +208,7 @@ p{
             color: #cbcbd7;
          }
          .input-group{
-            border:1px solid #ccc;
+            border:1px solid var(--border-color);
             border-radius: var(--border-radius);
             display: flex;
          }
