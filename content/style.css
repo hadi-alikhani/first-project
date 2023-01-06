@@ -226,3 +226,20 @@ p{
             }
             
          }
+         /*Card*/
+         .card{
+            box-shadow: 0 0 20px 10px #f3f3f3 ;
+            border-radius: 7px;
+            overflow: hidden;
+         }
+       .card__header ,.card__body{
+           padding:2rem 3rem ; 
+         }
+         .card--primary .card__header{
+            background-color: var(--primary-color);
+            color: #fff;   
+         }
+         .card--secondry .card__header{
+            background-color: var(--secondry-color);
+            color: #fff;
+         }
